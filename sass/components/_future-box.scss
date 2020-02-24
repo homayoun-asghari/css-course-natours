@@ -1,0 +1,31 @@
+.future-box{
+    background-color: rgba($color-white, .8);
+    padding: 5.5rem .5rem 5.5rem .5rem ;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 4rem 4rem rgba($color-black, .5);
+    text-transform: uppercase;
+    transition: transform .5s;
+    backface-visibility: hidden;
+    
+    
+    
+    
+    &__icon{
+        font-size: 6rem;
+        margin-bottom: 1.5rem;
+        display: inline-block;
+        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        -webkit-background-clip: text;
+        color: transparent;
+        
+    }
+    
+    &:hover{
+        transform: scale(1.1) translateY(-.2rem);
+        box-shadow: 0 8rem 8rem rgba($color-black, .5);
+        &h3,p{
+            transform: scale(0) translateY(0);
+        }
+    }
+}
