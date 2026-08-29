@@ -10,7 +10,9 @@ I am recording it because completing a good CSS course is a real fact about that
 
 > This repository was reconstructed in 2026 from a filesystem archive. The code was never under version control at the time.
 >
-> **Commit dates are the real modification times of the original files**, recovered with `stat`, accurate to the second. The work happened between **2020-02-16 08:42** and **2020-03-27 11:05** local time (UTC+03:30). One commit is dated 2026: the README, the rendered previews, and any corrections. Each is labelled as such in its commit message.
+> **Commit dates are the real modification times of the original files**, recovered with `stat`, accurate to the second. The work happened between **2020-02-16 08:42** and **2020-03-27 11:05** local time (UTC+03:30). One commits are dated 2026 — the README, plus any rendered previews or corrections. Each says which it is in its commit message.
+>
+> One limit worth stating: a modification time is not an authorship time. It records when a file was last written, which for a copied or re-saved file is later than when the work was done. This drive holds duplicated trees, so some files were certainly moved between them. These dates are therefore a faithful transcription of the filesystem's timeline and a **floor** on when the work happened — not independent proof of authorship on that date.
 
 ## Attribution
 
